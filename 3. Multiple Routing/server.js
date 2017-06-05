@@ -1,7 +1,6 @@
 var express = require('express');
 var bodyparser = require('body-parser');
 var morgan = require('morgan');
-var bodyParser = require('body-parser');
 var app = express();
 var dishrouter = require('./dishRouter.js');
 var promorouter = require('./promoRouter.js');
